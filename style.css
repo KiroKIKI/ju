@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    justify-content: space-between;
+    padding: 10px ;
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+
+.button {
+    background-color: #4aff32;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid rgb(255, 29, 85);
+    border-bottom: 5px solid rgb(61, 255, 77);
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.nav-link {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px;
+   
+    
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin-top: 75px;
+    margin-bottom: 25px ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+     display: flex;
+     margin: 30px;
+     justify-content: space-around; 
+     padding: 30px;
+     
+}
+
+article {
+    background-color: white;
+    padding: 5px ;
+    width: 400px;
+    margin: 15px ;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: rgb(26, 255, 95);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: rgb(44, 255, 114);
+    padding:15px;
+    display: flex;
+}
+
+footer a {
+    margin-right: 10px;
+}
+
+footer p {
+    font-size: 24px;
+}
+h2 {
+    color: rgb(255, 255, 255);
+}
+p{
+    color: rgb(255, 255, 255);
+}
